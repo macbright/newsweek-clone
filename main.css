@@ -1,3 +1,21 @@
-.newWord {
-    color: blue;
+:root {
+    --main-color: #FF0000;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.nav-color1 {
+    background-color: var(--main-color);
+    height: 50px;
+}
+
+.top-nav1 {
+    background-color: rgb(255, 0, 0);
+    height: 80px;
+}
+
+.fa.fa-navicon {
+    color: white;
 }
