@@ -2,8 +2,13 @@
     --main-color: #FF0000;
 }
 
+
+/* nav bar css */
+
 .navbar-brand img {
-    height: 50px;
+    height: 35px;
+    padding-left: 0;
+    width: 100%
 }
 
 .nav-color1 {
@@ -16,6 +21,81 @@
     height: 80px;
 }
 
-.fa.fa-navicon {
+.menu-bar1 img {
+    height: 30px;
+}
+
+.menu-bar1 {
+    padding-left: 5px;
+    background-color: red;
+    border: none
+}
+
+.subscribe1 {
+    color: rgb(255, 0, 0);
+    color: red;
+    background-color: white;
+    font-size: 14px;
+    padding: 3px;
+    margin: 0;
+    border-radius: 0;
+    border-color: none;
+    font-weight: bold
+}
+
+.sign-in1 {
     color: white;
+    font-size: 14px;
+    padding: 0 4px 0 0;
+}
+
+.sign-in1:hover {
+    color: white;
+}
+
+.popupnav {
+    width: 280px;
+    float: right;
+    box-shadow: gray;
+    border-left: 2px solid whitesmoke;
+    height: 1000px;
+}
+
+.popupnav ul {
+    list-style: none;
+    padding: 0 0 0 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.popupnav ul li {
+    padding-top: 20px;
+    color: black;
+}
+
+.popupnav ul li a {
+    color: black;
+}
+
+.popupnav form input {
+    height: 30px;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+}
+
+.popupnav ul li span {
+    float: right;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    color: gray;
+}
+
+.popupnav ul li:hover,
+.popupnav ul li:hover a {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
