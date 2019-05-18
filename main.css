@@ -59,6 +59,14 @@
     box-shadow: gray;
     border-left: 2px solid whitesmoke;
     height: 1000px;
+    position: absolute;
+    background-color: white;
+    /* <-- Added */
+    z-index: 10;
+    align-self: right;
+    /* <-- Added */
+    overflow: visible;
+    right: 5px;
 }
 
 .popupnav ul {
@@ -98,4 +106,53 @@
     color: white;
     cursor: pointer;
     text-decoration: none;
+}
+
+.row-border {
+    border-bottom: 2px solid gainsboro;
+    padding: 15px 0;
+}
+
+.row-border div {
+    border-left: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row-border div a {
+    color: black;
+}
+
+.row-border div a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.row-border .no-border {
+    border: none;
+}
+
+.row-border .no-border input {
+    width: 100px;
+    box-shadow: none;
+    border: none;
+}
+
+.menu-bar2 {
+    display: none;
+}
+
+
+/* media query for the second menu bar */
+
+@media (max-width: 1160px) {
+    .row-border div {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 950px) {
+    .menu-bar2 {
+        display: grid
+    }
 }
