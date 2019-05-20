@@ -14,6 +14,8 @@
 .nav-color1 {
     background-color: var(--main-color);
     height: 50px;
+    z-index: 9;
+    top: 0;
 }
 
 .top-nav1 {
@@ -155,4 +157,53 @@
     .menu-bar2 {
         display: grid
     }
+}
+
+
+/* the main content */
+
+.content-margin {}
+
+.content-margin .left-column img,
+.big-img2 img {
+    width: 100%;
+}
+
+.rounded-image img {
+    height: 90px;
+}
+
+.smallHeight img {
+    height: 100%;
+}
+
+.sign-up1 {
+    background-color: rgb(244, 245, 246);
+    width: 330px
+}
+
+.sign-up1 img {
+    height: 36px;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.section2 p {
+    background-color: red;
+    color: white;
+}
+
+.section2 a {
+    color: red;
+}
+
+.color2 {
+    background-color: rgb(244, 245, 246);
+}
+
+.color2:hover {
+    background-color: rgb(213, 219, 224);
+    cursor: pointer;
 }
