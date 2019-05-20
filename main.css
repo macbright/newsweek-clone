@@ -195,7 +195,8 @@
     color: white;
 }
 
-.section2 a {
+.section2 a,
+.section5 {
     color: red;
 }
 
@@ -210,4 +211,13 @@
 
 .editor-img img {
     width: 100%;
+}
+
+.smallHeight a {
+    color: black;
+}
+
+.smallHeight a:hover {
+    color: red;
+    text-decoration: none;
 }
