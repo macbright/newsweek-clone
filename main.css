@@ -207,3 +207,7 @@
     background-color: rgb(213, 219, 224);
     cursor: pointer;
 }
+
+.editor-img img {
+    width: 100%;
+}
