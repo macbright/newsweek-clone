@@ -243,3 +243,12 @@ ul li:before {
     text-decoration: none;
     background-color: darkred;
 }
+
+.social-media1 a {
+    background-color: rgb(102, 102, 102);
+    padding: 4px;
+}
+
+.social-media1 a:hover {
+    background-color: blue;
+}
