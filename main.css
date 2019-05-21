@@ -252,3 +252,13 @@ ul li:before {
 .social-media1 a:hover {
     background-color: blue;
 }
+
+.footer2 a {
+    color: rgb(102, 102, 120);
+    font-size: 14px;
+}
+
+.footer2 a:hover {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
