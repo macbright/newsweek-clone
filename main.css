@@ -221,3 +221,25 @@
     color: red;
     text-decoration: none;
 }
+
+.last-grid1 {
+    background-color: rgb(244, 245, 246);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+.subscribe3 {
+    background-color: red;
+    color: white;
+}
+
+.subscribe3 a:hover {
+    text-decoration: none;
+    background-color: darkred;
+}
