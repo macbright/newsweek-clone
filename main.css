@@ -63,10 +63,8 @@
     height: 1000px;
     position: absolute;
     background-color: white;
-    /* <-- Added */
     z-index: 10;
     align-self: right;
-    /* <-- Added */
     overflow: visible;
     right: 5px;
 }
@@ -109,11 +107,6 @@
     cursor: pointer;
     text-decoration: none;
 }
-
-
-/* .middle-first {
-position: sticky
-} */
 
 .row-border {
     border-bottom: 2px solid gainsboro;
