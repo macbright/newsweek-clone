@@ -2,6 +2,21 @@
     --main-color: #FF0000;
 }
 
+body {
+    background-color: rgb(244, 245, 246);
+}
+
+.content-margin,
+.menu-bar2,
+footer {
+    background-color: white;
+    margin: 0 25px;
+}
+
+footer {
+    margin-top: 3px;
+}
+
 
 /* nav bar css */
 
@@ -24,7 +39,7 @@
 }
 
 .menu-bar1 img {
-    height: 30px;
+    height: 20px;
 }
 
 .menu-bar1 {
@@ -45,10 +60,15 @@
     font-weight: bold
 }
 
+.subscribe1:hover {
+    color: red;
+}
+
 .sign-in1 {
     color: white;
-    font-size: 14px;
-    padding: 0 4px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 6px 0 0;
 }
 
 .sign-in1:hover {
@@ -60,13 +80,26 @@
     float: right;
     box-shadow: gray;
     border-left: 2px solid whitesmoke;
-    height: 1000px;
     position: absolute;
     background-color: white;
     z-index: 10;
     align-self: right;
     overflow: visible;
     right: 5px;
+    height: calc(100vh - 40px);
+    overflow-x: hidden;
+    opacity: 1;
+    overflow-y: scroll;
+}
+
+
+/* .neg1 {
+    top: -100%;
+    position: sticky !important;
+} */
+
+.menu-button {
+    top: 1;
 }
 
 .popupnav ul {
@@ -168,10 +201,13 @@ a:hover {
     }
 }
 
+#test4 {
+    position: sticky !important;
+    top: 0;
+}
+
 
 /* the main content */
-
-.content-margin {}
 
 .content-margin .left-column img,
 .big-img2 img {
