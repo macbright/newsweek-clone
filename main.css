@@ -1,320 +1,356 @@
-                     :root {
-                        --main-color: #FF0000;
-                    }
-                    /* nav bar css */
-                    
-                    .navbar-brand img {
-                        height: 35px;
-                        padding-left: 0;
-                        width: 100%
-                    }
-                    
-                    .nav-color1 {
-                        background-color: var(--main-color);
-                        height: 50px;
-                        z-index: 9;
-                        top: 0;
-                    }
-                    
-                    .top-nav1 {
-                        background-color: rgb(255, 0, 0);
-                        height: 80px;
-                    }
-                    
-                    .menu-bar1 img {
-                        height: 30px;
-                    }
-                    
-                    .menu-bar1 {
-                        padding-left: 5px;
-                        background-color: red;
-                        border: none
-                    }
-                    
-                    .subscribe1 {
-                        color: rgb(255, 0, 0);
-                        color: red;
-                        background-color: white;
-                        font-size: 14px;
-                        padding: 3px;
-                        margin: 0;
-                        border-radius: 0;
-                        border-color: none;
-                        font-weight: bold
-                    }
-                    
-                    .sign-in1 {
-                        color: white;
-                        font-size: 14px;
-                        padding: 0 4px 0 0;
-                    }
-                    
-                    .sign-in1:hover {
-                        color: white;
-                    }
-                    
-                    .popupnav {
-                        width: 280px;
-                        float: right;
-                        box-shadow: gray;
-                        border-left: 2px solid whitesmoke;
-                        height: 1000px;
-                        position: absolute;
-                        background-color: white;
-                        /* <-- Added */
-                        z-index: 10;
-                        align-self: right;
-                        /* <-- Added */
-                        overflow: visible;
-                        right: 5px;
-                    }
-                    
-                    .popupnav ul {
-                        list-style: none;
-                        padding: 0 0 0 10px;
-                        font-weight: bolder;
-                        font-size: 20px;
-                    }
-                    
-                    .popupnav ul li {
-                        padding-top: 20px;
-                        color: black;
-                    }
-                    
-                    .popupnav ul li a {
-                        color: black;
-                    }
-                    
-                    .popupnav form input {
-                        height: 30px;
-                        box-shadow: none;
-                        border: none;
-                        padding: 10px;
-                    }
-                    
-                    .popupnav ul li span {
-                        float: right;
-                        padding-right: 50px;
-                        font-size: 20px;
-                        font-weight: normal;
-                        color: gray;
-                    }
-                    
-                    .popupnav ul li:hover,
-                    .popupnav ul li:hover a {
-                        background-color: black;
-                        color: white;
-                        cursor: pointer;
-                        text-decoration: none;
-                    }
-                    
-                    .row-border {
-                        border-bottom: 2px solid gainsboro;
-                        padding: 15px 0;
-                    }
-                    
-                    .row-border div {
-                        border-left: 1px solid gray;
-                        font-size: 20px;
-                        font-weight: bold;
-                    }
-                    
-                    .row-border div a {
-                        color: black;
-                    }
-                    
-                    .row-border div a:hover {
-                        color: red;
-                        text-decoration: none;
-                    }
-                    
-                    .row-border .no-border {
-                        border: none;
-                    }
-                    
-                    .row-border .no-border input {
-                        width: 100px;
-                        box-shadow: none;
-                        border: none;
-                    }
-                    
-                    .menu-bar2 {
-                        display: none;
-                    }
-                    /* media query for the second menu bar */
-                    
-                    @media (max-width: 1160px) {
-                        .row-border div {
-                            font-size: 14px;
-                        }
-                    }
-                    
-                    @media (min-width: 950px) {
-                        .menu-bar2 {
-                            display: grid
-                        }
-                    }
-                    /* the main content */
-                    
-                    .content-margin {}
-                    
-                    .content-margin .left-column img,
-                    .big-img2 img {
-                        width: 100%;
-                    }
-                    
-                    .rounded-image img {
-                        height: 90px;
-                    }
-                    
-                    .smallHeight img {
-                        height: 100%;
-                    }
-                    
-                    .sign-up1 {
-                        background-color: rgb(244, 245, 246);
-                        width: 330px
-                    }
-                    
-                    .sign-up1 img {
-                        height: 36px;
-                    }
-                    
-                    .section2 img {
-                        width: 100%;
-                    }
-                    
-                    .section2 p {
-                        background-color: red;
-                        color: white;
-                    }
-                    
-                    .section2 a,
-                    .section5 {
-                        color: red;
-                    }
-                    
-                    .color2 {
-                        background-color: rgb(244, 245, 246);
-                    }
-                    
-                    .color2:hover {
-                        background-color: rgb(213, 219, 224);
-                        cursor: pointer;
-                    }
-                    
-                    .editor-img img {
-                        width: 100%;
-                    }
-                    
-                    .smallHeight a {
-                        color: black;
-                    }
-                    
-                    .smallHeight a:hover {
-                        color: red;
-                        text-decoration: none;
-                    }
-                    
-                    .last-grid1 {
-                        background-color: rgb(244, 245, 246);
-                    }
-                    
-                    ul {
-                        list-style: none;
-                    }
-                    
-                    ul li:before {
-                        content: '✓';
-                    }
-                    
-                    .subscribe3 {
-                        background-color: red;
-                        color: white;
-                    }
-                    
-                    .subscribe3 a:hover {
-                        text-decoration: none;
-                        background-color: darkred;
-                    }
-                    
-                    .social-media1 a {
-                        background-color: rgb(102, 102, 102);
-                        padding: 4px;
-                    }
-                    
-                    .social-media1 a:hover {
-                        background-color: blue;
-                    }
-                    
-                    .footer2 a {
-                        color: rgb(102, 102, 120);
-                        font-size: 14px;
-                    }
-                    
-                    .footer2 a:hover {
-                        color: rgb(51, 51, 51);
-                        text-decoration: none;
-                    }
-                    
-                    .footer2 a {
-                        border-right: 1px solid gray;
-                        line-height: 2;
-                    }
-                    
-                    .lastfooter a {
-                        text-align: center;
-                    }
-                    /* media querie for the body */
-                    
-                    @media screen and (max-width: 800px) {
-                        .media1 h5 {
-                            font-size: 13px;
-                        }
-                        .media11 {
-                            width: 100%;
-                            padding-left: 170px;
-                        }
-                        .media2 {
-                            padding-left: 250px;
-                        }
-                        .last-grid1 {
-                            display: flex;
-                        }
-                        .last-grid1 li {
-                            font-size: 14px
-                        }
-                        .last-grid1 h4 {
-                            font-size: 18px
-                        }
-                        .noborderSide {
-                            border: none;
-                        }
-                        .subscribe3 {
-                            text-align: center;
-                        }
-                        .social-media1 {
-                            float: left;
-                        }
-                        .social-media1 img {
-                            height: 20px;
-                        }
-                        .footer2 a {
-                            border-right: none;
-                            font-size: 13px;
-                        }
-                        .lastfooter a {
-                            text-align: left;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 600px) {
-                        .media11 {
-                            width: 100%;
-                            padding-left: 120px;
-                        }
-                        .test1 {
-                            width: 100%;
-                            padding-left: 120px;
-                        }
-                    }
+:root {
+    --main-color: #FF0000;
+}
+
+
+/* nav bar css */
+
+.navbar-brand img {
+    height: 35px;
+    padding-left: 0;
+    width: 100%
+}
+
+.nav-color1 {
+    background-color: var(--main-color);
+    height: 50px;
+    z-index: 9;
+    top: 0;
+}
+
+.top-nav1 {
+    background-color: rgb(255, 0, 0);
+    height: 80px;
+}
+
+.menu-bar1 img {
+    height: 30px;
+}
+
+.menu-bar1 {
+    padding-left: 5px;
+    background-color: red;
+    border: none
+}
+
+.subscribe1 {
+    color: rgb(255, 0, 0);
+    color: red;
+    background-color: white;
+    font-size: 14px;
+    padding: 3px;
+    margin: 0;
+    border-radius: 0;
+    border-color: none;
+    font-weight: bold
+}
+
+.sign-in1 {
+    color: white;
+    font-size: 14px;
+    padding: 0 4px 0 0;
+}
+
+.sign-in1:hover {
+    color: white;
+}
+
+.popupnav {
+    width: 280px;
+    float: right;
+    box-shadow: gray;
+    border-left: 2px solid whitesmoke;
+    height: 1000px;
+    position: absolute;
+    background-color: white;
+    /* <-- Added */
+    z-index: 10;
+    align-self: right;
+    /* <-- Added */
+    overflow: visible;
+    right: 5px;
+}
+
+.popupnav ul {
+    list-style: none;
+    padding: 0 0 0 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.popupnav ul li {
+    padding-top: 20px;
+    color: black;
+}
+
+.popupnav ul li a {
+    color: black;
+}
+
+.popupnav form input {
+    height: 30px;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+}
+
+.popupnav ul li span {
+    float: right;
+    padding-right: 50px;
+    font-size: 20px;
+    font-weight: normal;
+    color: gray;
+}
+
+.popupnav ul li:hover,
+.popupnav ul li:hover a {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* .middle-first {
+position: sticky
+} */
+
+.row-border {
+    border-bottom: 2px solid gainsboro;
+    padding: 15px 0;
+}
+
+.row-border div {
+    border-left: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row-border div a {
+    color: black;
+}
+
+.row-border div a:hover,
+.rounded-image a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.row-border .no-border {
+    border: none;
+}
+
+.row-border .no-border input {
+    width: 100px;
+    box-shadow: none;
+    border: none;
+}
+
+.menu-bar2 {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: red;
+}
+
+
+/* media query for the second menu bar */
+
+@media (max-width: 1160px) {
+    .row-border div {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 950px) {
+    .menu-bar2 {
+        display: grid
+    }
+}
+
+
+/* the main content */
+
+.content-margin {}
+
+.content-margin .left-column img,
+.big-img2 img {
+    width: 100%;
+}
+
+.rounded-image img {
+    height: 90px;
+}
+
+.smallHeight img {
+    height: 100%;
+}
+
+.sign-up1 {
+    background-color: rgb(244, 245, 246);
+    width: 330px
+}
+
+.sign-up1 img {
+    height: 36px;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.section2 p {
+    background-color: red;
+    color: white;
+}
+
+.section2 a,
+.section5 {
+    color: red;
+}
+
+.color2 {
+    background-color: rgb(244, 245, 246);
+}
+
+.color2:hover {
+    background-color: rgb(213, 219, 224);
+    cursor: pointer;
+}
+
+.editor-img img {
+    width: 100%;
+}
+
+.smallHeight a {
+    color: black;
+}
+
+.smallHeight a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.last-grid1 {
+    background-color: rgb(244, 245, 246);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+}
+
+.subscribe3 {
+    background-color: red;
+    color: white;
+}
+
+.subscribe3 a:hover {
+    text-decoration: none;
+    background-color: darkred;
+}
+
+.social-media1 {
+    float: right;
+}
+
+.social-media1 img {
+    height: 20px;
+}
+
+.social-media1 a {
+    background-color: rgb(102, 102, 102);
+    padding: 4px;
+    float: right;
+}
+
+.social-media1 a:hover {
+    background-color: blue;
+}
+
+.footer2 a {
+    color: rgb(102, 102, 120);
+    font-size: 14px;
+}
+
+.footer2 a:hover {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.footer2 a {
+    border-right: 1px solid gray;
+    line-height: 2;
+}
+
+.lastfooter a {
+    text-align: center;
+}
+
+
+/* media querie for the body */
+
+@media screen and (max-width: 800px) {
+    .media1 h5 {
+        font-size: 13px;
+    }
+    .media11 {
+        width: 100%;
+        padding-left: 170px;
+    }
+    .media2 {
+        padding-left: 250px;
+    }
+    .last-grid1 {
+        display: flex;
+    }
+    .last-grid1 li {
+        font-size: 14px
+    }
+    .last-grid1 h4 {
+        font-size: 18px
+    }
+    .noborderSide {
+        border: none;
+    }
+    .subscribe3 {
+        text-align: center;
+    }
+    .social-media1 {
+        float: left;
+    }
+    .social-media1 img {
+        height: 20px;
+    }
+    .footer2 a {
+        border-right: none;
+        font-size: 13px;
+    }
+    .lastfooter a {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .media11 {
+        width: 100%;
+        padding-left: 120px;
+    }
+    .test1 {
+        width: 100%;
+        padding-left: 120px;
+    }
+    .last-grid1 {
+        display: grid;
+    }
+}
