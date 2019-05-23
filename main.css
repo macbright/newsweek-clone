@@ -92,14 +92,9 @@ footer {
     overflow-y: scroll;
 }
 
-
-/* .neg1 {
+.neg1 {
     top: -100%;
     position: sticky !important;
-} */
-
-.menu-button {
-    top: 1;
 }
 
 .popupnav ul {
